@@ -2,7 +2,6 @@
 
 import { useScrollReveal } from './useScrollReveal';
 import AnimatedCounter from './AnimatedCounter';
-import { PhoneSlash, Warning, UserMinus } from '@phosphor-icons/react';
 
 export default function ProblemSection() {
   const ref = useScrollReveal();
@@ -12,19 +11,16 @@ export default function ProblemSection() {
       number: 28,
       suffix: '%',
       text: 'of business calls go unanswered',
-      icon: <PhoneSlash size={24} weight="duotone" />,
     },
     {
       number: 78,
       suffix: '%',
       text: 'of customers hire the first company that responds',
-      icon: <Warning size={24} weight="duotone" />,
     },
     {
       number: 85,
       suffix: '%',
       text: 'of callers who reach voicemail never leave a message',
-      icon: <UserMinus size={24} weight="duotone" />,
     },
   ];
 
@@ -46,9 +42,6 @@ export default function ProblemSection() {
               key={index}
               className="stagger-child card-hover group bg-white border border-black/[0.06] rounded-2xl p-8 sm:p-10 text-center"
             >
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-red-50 text-red-400 mb-8 group-hover:bg-red-100 transition-colors duration-300">
-                {stat.icon}
-              </div>
               <div className="text-5xl sm:text-6xl font-semibold text-[#111] mb-3 tracking-tight">
                 <AnimatedCounter end={stat.number} suffix={stat.suffix} />
               </div>
