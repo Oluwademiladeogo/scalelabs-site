@@ -1,6 +1,7 @@
 'use client';
 
-import { Phone, EnvelopeSimple, CalendarBlank } from '@phosphor-icons/react';
+import { EnvelopeSimple, CalendarBlank } from '@phosphor-icons/react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -9,10 +10,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-7 h-7 rounded-lg bg-white/[0.06] flex items-center justify-center border border-white/[0.06]">
-                <Phone size={14} weight="duotone" className="text-white/60" />
-              </div>
+            <div className="flex items-center gap-2 mb-4">
+              <Image src="/scalelabs-icon.svg" alt="ScaleLabs" width={28} height={28} className="brightness-[2] opacity-60" />
               <span className="text-white/80 font-semibold text-[15px] tracking-tight">ScaleLabs</span>
             </div>
             <p className="text-white/25 text-sm leading-relaxed max-w-xs">

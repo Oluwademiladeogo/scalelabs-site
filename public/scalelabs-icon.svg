@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- ScaleLabs monoline systems mark — spiral unfurling into swoosh -->
+  <g transform="translate(100,108) scale(1.1)">
+    <!-- Upper line: spiral curl on left, sweeping up to the right -->
+    <path d="M -12,2
+             C -18,2 -22,-2 -22,-8
+             C -22,-16 -14,-22 -4,-22
+             C 10,-22 20,-14 20,-2
+             C 20,12 8,22 -8,22
+             C -26,22 -40,10 -40,-8
+             C -40,-30 -24,-46 0,-46
+             C 28,-46 48,-32 62,-18
+             C 72,-8 78,0 80,4"
+          fill="none" stroke="#94A3B8" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Lower line: parallel flowing curve -->
+    <path d="M -28,32
+             C -8,28 14,18 34,6
+             C 50,-4 64,-10 76,-8"
+          fill="none" stroke="#94A3B8" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+</svg>

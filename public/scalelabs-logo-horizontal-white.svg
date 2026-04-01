@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 90" width="500" height="90">
+  <!-- ScaleLabs horizontal lockup — white on dark -->
+
+  <!-- Monoline mark -->
+  <g transform="translate(40,50) scale(0.42)">
+    <path d="M -12,2
+             C -18,2 -22,-2 -22,-8
+             C -22,-16 -14,-22 -4,-22
+             C 10,-22 20,-14 20,-2
+             C 20,12 8,22 -8,22
+             C -26,22 -40,10 -40,-8
+             C -40,-30 -24,-46 0,-46
+             C 28,-46 48,-32 62,-18
+             C 72,-8 78,0 80,4"
+          fill="none" stroke="#E2E8F0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M -28,32
+             C -8,28 14,18 34,6
+             C 50,-4 64,-10 76,-8"
+          fill="none" stroke="#E2E8F0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="100" y="58" font-family="'Inter', 'Manrope', 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="-0.5" fill="#F1F5F9">ScaleLabs</text>
+</svg>

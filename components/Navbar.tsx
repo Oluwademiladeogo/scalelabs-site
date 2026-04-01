@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Phone, List, X } from '@phosphor-icons/react';
+import { List, X } from '@phosphor-icons/react';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,10 +33,8 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8">
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2.5 group">
-            <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center border border-white/10 group-hover:bg-white/15 transition-colors duration-300">
-              <Phone size={16} weight="duotone" className="text-white" />
-            </div>
+          <a href="#" className="flex items-center gap-2 group">
+            <Image src="/scalelabs-icon.svg" alt="ScaleLabs" width={32} height={32} className="brightness-[2] opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
             <span className="text-white font-semibold text-[15px] tracking-tight">ScaleLabs</span>
           </a>
 
